@@ -36,11 +36,11 @@ function addTask(e) {
  // Append the link to li
  li.appendChild(link);
 
-// Append li to ul
-taskList.appendChild(li);
+  // Append li to ul
+  taskList.appendChild(li);
 
-// Clear the input
-taskInput.value = '';
+  // Clear the input
+  taskInput.value = '';
 
-e.preventDefault();
+  e.preventDefault();
 }   
